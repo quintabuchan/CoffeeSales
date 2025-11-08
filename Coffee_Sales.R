@@ -8,8 +8,9 @@
 
 # Load Packages & Libraries
 
-pacman::p_load("lubridate", "dplyr", "readr", "ggplot2", "purrr", "scales", "magrittr", "ggpubr", "forcats", "see", "stringr", "ggridges", "forecast", "tidyr")
+install.package("pacman")
 
+pacman::p_load("lubridate", "dplyr", "readr", "ggplot2", "purrr", "scales", "magrittr", "ggpubr", "forcats", "see", "stringr", "ggridges", "forecast", "tidyr")
 
 # Load & Transform Data File
 
@@ -74,7 +75,6 @@ MainTheme <- function(){
     strip.background = element_rect(fill = "#C2C2C2", colour = "#E3371E", linewidth = 1, linetype = "solid"),
     plot.background = element_rect(fill = "#C2C2C2"))
 }
-
 
 # DATA VISUALISATION
 
@@ -296,6 +296,6 @@ PeriodProfit <- Coffee_Sales |>
 
 # There are no discernible patterns, regarding which beverage will have the highest sales or orders, though there is a moderate 
 # correlation between sales increasing over time. 
-
 # The exception to this is how cash became a phased out type of transaction during the second quarter in 2024. 
+
 
