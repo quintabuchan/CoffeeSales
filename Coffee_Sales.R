@@ -1,6 +1,9 @@
 # INTRODUCTION
 
-# This analysis focuses on analysing the monthly and quarterly coffee sales from a fictional vending machine company. It looks at the distribution of orders for each beverage, how the preferred method of transaction changes over time, and purchasing patterns of customer behaviour.
+# This analysis focuses on analysing the monthly and quarterly coffee sales from a fictional vending machine company. 
+
+#It looks at the distribution of orders for each beverage, how the preferred method of transaction changes over time, 
+# and purchasing patterns of customer behaviour.
 
 # DATA PREPARATION
 
@@ -294,4 +297,5 @@ PeriodProfit <- Coffee_Sales |>
 
 # There are no discernible patterns, regarding which beverage will have the highest sales or orders, though there is a moderate 
 # correlation between sales increasing over time. 
+
 # The exception to this is how cash became a phased out type of transaction during the second quarter in 2024. 
