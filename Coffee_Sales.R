@@ -8,7 +8,7 @@
 
 # Load Packages & Libraries
 
-install.package("pacman")
+if (!require("pacman")) install.packages("pacman")
 
 pacman::p_load("lubridate", "dplyr", "readr", "ggplot2", "purrr", "scales", "magrittr", "ggpubr", "forcats", "see", "stringr", "ggridges", "forecast", "tidyr")
 
@@ -297,5 +297,6 @@ PeriodProfit <- Coffee_Sales |>
 # There are no discernible patterns, regarding which beverage will have the highest sales or orders, though there is a moderate 
 # correlation between sales increasing over time. 
 # The exception to this is how cash became a phased out type of transaction during the second quarter in 2024. 
+
 
 
